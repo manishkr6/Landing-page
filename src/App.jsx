@@ -1,8 +1,10 @@
 import React from "react";
-import "./App.css"
+import "./App.css";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import CompanyLogo from "./components/CompanyLogo";
+import PurposeSection from "./components/PurposeSection";
+import FeaturesSection from "./components/FeaturesSection";
 
 const App = () => {
   return (
@@ -12,6 +14,8 @@ const App = () => {
         <Nav />
         <Hero />
         <CompanyLogo />
+        <PurposeSection />
+        <FeaturesSection />
       </div>
     </main>
   );

@@ -3,7 +3,7 @@ import heroImage from "../assets/hero-image.png";
 
 const Hero = () => {
   return (
-    <section className="container flex flex-col md:flex-row justify-between items-center mx-auto pt-44 pb-6 px-4 sm:px-6 lg:px-8">
+    <section id="home" className="container flex flex-col md:flex-row justify-between items-center mx-auto pt-44 pb-6 px-4 sm:px-6 lg:px-8">
       <div className="w-full md:w-1/2 space-y-8">
         <div className="flex items-center gap-2 bg-gray-50 w-fit px-4 py-2 rounded-full hover:bg-gray-100 transition-colors cursor-pointer group">
           <span className="text-blue-600 group-hover:scale-110 transition-transform">

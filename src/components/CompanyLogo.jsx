@@ -19,7 +19,7 @@ const CompanyLogo = () => {
             key={index}
             src={logo}
             alt="company logo"
-            className="mx-12 h-8 w-36 object-contain grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
+            className="mx-12 cursor-pointer h-8 w-36 object-contain grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all"
           />
         ))}
         {logos.map((logo, index) => (

@@ -6,6 +6,12 @@ import CompanyLogo from "./components/CompanyLogo";
 import PurposeSection from "./components/PurposeSection";
 import FeaturesSection from "./components/FeaturesSection";
 import ScheduleSection from "./components/ScheduleSection";
+import MonitorSection from "./components/MonitorSection";
+import PricisingSection from "./components/PricisingSection";
+import ServicesSection from "./components/ServicesSection";
+import TestimonialSection from "./components/TestimonialSection";
+import NewslettersSection from "./components/NewslettersSection";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -18,6 +24,12 @@ const App = () => {
         <PurposeSection />
         <FeaturesSection />
         <ScheduleSection />
+        <MonitorSection />
+        <PricisingSection />
+        <ServicesSection />
+        <TestimonialSection />
+        <NewslettersSection />
+        <Footer />
       </div>
     </main>
   );
